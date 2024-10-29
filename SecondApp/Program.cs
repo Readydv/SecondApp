@@ -172,6 +172,19 @@ class PickPoint
     }
 }
 
+class CourierCompany
+{
+    public string Name { get; set; }
+
+    public string Address { get; set; }
+
+    public CourierCompany(string name, string address)
+    {
+        Name = name;
+        Address = address;
+    }
+}
+
 
 
 
